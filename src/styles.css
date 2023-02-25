@@ -1,9 +1,50 @@
 .inputarea {
   background-color: #afeeee;
+  border-radius: 8px;
+  margin: 8px;
+  padding: 8px;
+  width: 400px;
+  height: 30px;
 }
 .incompletearea {
   background-color: #98fb98;
+  border-radius: 8px;
+  margin: 8px;
+  padding: 8px;
+  width: 400px;
+  min-height: 200px;
 }
 .completearea {
   background-color: #ffe4e1;
+  border-radius: 8px;
+  margin: 8px;
+  padding: 8px;
+  width: 400px;
+  min-height: 200px;
+}
+input {
+  border-radius: 16px;
+  border: none;
+  padding: 6px 16px;
+  outline: none;
+}
+button {
+  border-radius: 16px;
+  border: none;
+  padding: 4px 16px;
+}
+button:hover {
+  background-color: #ff7fff;
+  color: #fff;
+  cursor: pointer;
+}
+.title {
+  text-align: center;
+  margin-top: 0;
+  font-weight: bold;
+  color: #666;
+}
+.list-low {
+  display: flex;
+  align-items: center;
 }

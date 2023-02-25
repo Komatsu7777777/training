@@ -9,15 +9,15 @@ export const App = () => {
         <button>追加</button>
       </div>
       <div className="incompletearea">
-        <p>未完了のTODO</p>
+        <p className="title">未完了のTODO</p>
         <div>
           <ul>
-            <div>
+            <div className="list-low">
               <li>あああああ</li>
               <button>完了</button>
               <button>削除</button>
             </div>
-            <div>
+            <div className="list-low">
               <li>いいいいい</li>
               <button>完了</button>
               <button>削除</button>
@@ -26,10 +26,10 @@ export const App = () => {
         </div>
       </div>
       <div className="completearea">
-        <p>完了のTODO</p>
+        <p className="title">完了のTODO</p>
         <div>
           <ul>
-            <div>
+            <div className="list-low">
               <li>ううううう</li>
               <button>戻す</button>
             </div>
